@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base_Theme" parent="@style/Theme.AppCompat">
+        <!-- elements common to both v21 and below -->
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="Child_Theme" parent="Base_Theme">
+        <!-- elements specific to v20 and below -->
+        <item name="android_version_specific_png">@drawable/android_x</item>
+    </style>
+
+</resources>
